@@ -2,7 +2,12 @@
   margin:0px;
   padding:0px;
 
-  background-color: #AFEEEE;
+}
+
+body{
+  background: url(Bridge.JPG) center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .clearfix::after{
@@ -17,22 +22,34 @@ a{
 }
 
 header{
-  text-align:center;
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.header{
+  width:700px;
+  color: black;
+  margin: 0px auto;
+}
+
+.header h1{
+  margin: 0px;
+  padding:20px;
 }
 
 .Intro{
-  border: 0.3px solid black;
-  width:700px;
   margin: 0px auto;
-  padding: 15px;
   font-size: 25px;
   font-weight: bold;
 }
 
-
 .container{
   width: 70%;
+}
+
+section{
+
+
 }
 
 .title{
