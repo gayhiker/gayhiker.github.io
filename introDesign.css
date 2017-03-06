@@ -18,34 +18,59 @@ body{
 
 a{
   text-decoration: none;
-  color:black;
 }
+
+nav{
+  background-color: #545454;
+  height: 70px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.name{
+  float: left;
+  color: white;
+  margin-left: 50px;
+}
+
+.menuBar{
+  float: right;
+  list-style: none;
+}
+
+.menuBar > li{
+  float: left;
+  padding: 15px;
+  padding-top: 25px;
+}
+
+.menuBar:nth-child(2){
+  margin-right: 40px;
+}
+
+.button > a{
+  color: white;
+}
+
 
 header{
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
 }
 
 .header{
   width:700px;
   color: black;
   margin: 0px auto;
-}
-
-.header h1{
-  margin: 0px;
-  padding:20px;
+  padding-top: 50px;
 }
 
 .Intro{
+  text-align: center;
   margin: 0px auto;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 
-.container{
-  width: 70%;
-}
 
 section{
 
@@ -56,8 +81,11 @@ section{
     text-align:center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    background: url(stripes.jpg) repeat;
+    /*background: url(stripes.jpg) repeat;*/
+    background-color: white;
+    background-opacity: .6;
     background-size: contain;
+    font-size: 35px;
 }
 
 .projects{
@@ -72,7 +100,7 @@ section{
   height: 200px;
   border: 1px solid black;
   margin: 10px;
-  background-color: #79CDCD;
+  background-color: #0198E1;
 }
 
 .content, .description{
@@ -144,36 +172,13 @@ section{
 
 footer{
   height: 70px;
-  background-color: #AEEEEE;
-}
-
-.nav{
-  float:left;
+  background-color: #545454;
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 15px;
 }
 
-.nav .button{
-  float:left;
-  margin: 0px 15px;
-  padding-top: 15px;
-}
-
-.button > a{
+footer h4{
   color: white;
-  font-size: 20px;
-
-}
-
-.nav:nth-child(1){
-  margin-left: 50px;
-}
-
-footer > .name{
-  float:right;
-  margin: 0px 40px;
-  padding-top: 20px;
-  color: white;
-  font-size: 25px;
-  font-family: 'Montserrat', sans-serif;
-
+  padding-top: 25px;
 }
